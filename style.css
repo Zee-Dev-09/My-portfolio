@@ -225,7 +225,6 @@ body{
     width: 61.2px;
     height: 45px;
     font-weight: 500;
-    color: #64748B;
     font-size: 13px;
     text-align: center;
     margin: auto;
@@ -233,10 +232,19 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: none;
+}
+.blog-text{
+    text-decoration: none;
+    color: #64748B;
 }
 .nav-icon{
     margin: auto;
     display: block;
+}
+.blog-icon{
+    margin: auto;
+    display: block; 
 }
 .projects-text{
     font-weight: 500;
